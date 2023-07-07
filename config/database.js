@@ -1,10 +1,20 @@
 // database module
 var mysql = require('mysql2');
+
+// development server
+//var config = {
+//    host: 'localhost',
+//    user: 'root',
+//    password: 'PD87@mysql',
+//    database: 'aStore'
+//};
+
+// production server
 var config = {
-    host: 'localhost',
-    user: 'root',
+    host: 'ggdemoserver2.mysql.database.azure.com',
+    user: 'dbuser',
     password: 'PD87@mysql',
-    database: 'aStore'
+    database: 'astore'
 };
 
 // init database
